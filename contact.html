@@ -5,8 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Bio - Ian Baggley Portrait Artist</title>
-  <meta name="description" content="Ian Baggley is a portrait artist living and working in Toronto, Ontario, Canada">
+  <title>Contact - Ian Baggley Portrait Artist</title>
+  <meta name="description" content="Contact Ian">
   <meta name="author" content="Ian Baggley">
 
   <!-- Mobile Specific Metas
@@ -24,6 +24,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/contact-form.css" >
+
 
 
   <!-- Favicon
@@ -57,17 +59,42 @@
             </ul>
           </nav>
       </div>
-      <div class="bio-container">
-        <h3>Ian Baggley - Bio</h3>
-        <image src="images/Self_Portrait_oval.gif" style="width:80%"></image>
-        <p>Ian was born in 1971 and is a Toronto based Portrait Artist. His formal training was at the Toronto School of Art where he gravitated to figurative drawing and painting. </p>
-        <p> He was awarded both the Barbara Barrett and the Matthew David Stein Scholarships.</p>
-        <p>Since then, Ian has immersed himself in the history and methods of the Old Masters and contemporary painters to continue the tradition and mystery of the portrait.</p>
-        <p> Since then, Ian has immersed himself in the history and methods of the Old Masters and contemporary painters to continue the tradition and mystery of the portrait.</p>
-        <p>Ian’s life experiences are mixed on the palette with the oil paint and then channeled through the brush to create deeply honest and emotional portraits.</p>
-        <p>His works hang across Canada, United States, and Europe.</p>
-        <p>Ian is also a recognized fantasy illustrator, musician, husband, and father.</p>
-      </div>
+      <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Contact Ian</h3>
+
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+
+        </form>
+        </div>
+
+    </div>
 
   <!-- End Document-->
     </div>

@@ -12,13 +12,18 @@
   display: none;
 }
 
+.mySlides img {
+  max-height:100vh;
+  max-width: 80%;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 20rem;
   width: auto;
-  margin-top: -22px;
+  margin-top: -114px;
   padding: 0rem;
   color: #5E4D4D;
   font-weight: bold;
