@@ -261,14 +261,18 @@ a:hover {
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer {
-  padding-top: 1rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   left: 0;
   width: 100%;
   background-color: #555555;
   color: var(--border-color-softer);
   text-align: center;
   clear: both;
+}
+
+.social-media {
+  padding-bottom: 4rem;
 }
 
 /* Bio
@@ -519,6 +523,28 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid var(--border-color-softer); }
+
+#instagram: {
+  height: 48px;
+  width: 48px;
+}
+
+#instagram:hover {
+  background-image: url('images/instagram48pxhover.png');
+  height: 48px;
+  width: 48px;
+}
+
+#facebook {
+  height: 48px;
+  width: 48px;
+}
+
+#facebook:hover {
+  background-image: url('images/facebook48pxhover.png');
+  height: 48px;
+  width: 48px;
+}
 
 
 /* Clearing
