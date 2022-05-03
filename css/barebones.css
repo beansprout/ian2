@@ -405,7 +405,7 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: inside; }
 ol {
   list-style: decimal inside; }
 ol, ul {
@@ -417,8 +417,25 @@ ul ul, ul ol, ol ol, ol ul {
 	color: var(--text-color-softer);
 }
 li {
-  margin-bottom: 0.5rem; }
+  padding-left: 2em;
+  margin-bottom: 0.5rem;
+  text-indent: -1.3em
+}
 
+  /* Commissions page special styles
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .commissions-container {
+   text-align: left;
+ }
+
+ .commissions-container h3 {
+  text-align: center;
+ }
+
+ .commissions-container p {
+  padding-left: 1em;
+  text-align: justify;
+ }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -526,6 +543,11 @@ there.
 /* Larger than mobile (default point when grid becomes active) */
 @media (min-width: 600px) {
 .bio-container {
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+.commissions-container {
   padding-left: 16rem;
   padding-right: 16rem;
 }
