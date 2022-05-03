@@ -437,6 +437,10 @@ li {
   text-align: justify;
  }
 
+ .commissions-container h4 {
+   margin-bottom: .5em;
+ }
+
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
