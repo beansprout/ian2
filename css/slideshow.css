@@ -118,6 +118,12 @@
   /* For tablets and desktop: */
   .prev, .next {
     top: 44rem;
+    font-size: 18px;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
   }
 
   /* Caption text */
@@ -129,18 +135,3 @@
 }
 }
 
-/* Larger than mobile (default point when grid becomes active) */
-@media (min-width: 600px) {
-  /* Next & previous buttons */
-.prev, .next {
-  top: 20rem;
-  font-size: 18px;
-}
-
-.dot {
-  height: 15px;
-  width: 15px;
-}
-
-
-}
