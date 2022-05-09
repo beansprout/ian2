@@ -21,13 +21,13 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 20rem;
+  top: 27rem;
   width: auto;
   margin-top: -114px;
   padding: 0rem;
   color: #5E4D4D;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 12px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -82,8 +82,8 @@
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 11px;
+  width: 11px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -127,4 +127,20 @@
   bottom: 26px;
   width: 100%;
 }
+}
+
+/* Larger than mobile (default point when grid becomes active) */
+@media (min-width: 600px) {
+  /* Next & previous buttons */
+.prev, .next {
+  top: 20rem;
+  font-size: 18px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+}
+
+
 }

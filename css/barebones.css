@@ -444,6 +444,28 @@ li {
    margin-bottom: .5em;
  }
 
+ /* Teaching page special styles
+ –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .teaching-container {
+  text-align: left;
+}
+
+.teaching-container h3 {
+ text-align: center;
+}
+
+.teaching-container p {
+ text-align: justify;
+}
+
+.teaching-container h4 {
+  margin-bottom: .5em;
+}
+
+.teaching-container h5 {
+  margin-bottom: .5em;
+  text-indent: 1em;
+}
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -577,6 +599,11 @@ there.
 }
 
 .commissions-container {
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+.teaching-container {
   padding-left: 16rem;
   padding-right: 16rem;
 }
