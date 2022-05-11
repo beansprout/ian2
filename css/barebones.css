@@ -169,7 +169,6 @@ body {
   background-color: var(--background-color);;
 }
 
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -544,7 +543,8 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid var(--border-color-softer); }
+  border-top: 1px solid var(--border-color-softer);
+}
 
 #instagram: {
   height: 48px;
