@@ -68,6 +68,7 @@ if (isset($_POST['Email'])) {
 ?>
 
     <!-- include your success message below -->
+    <a href="thanks-form.html"</a>
 
     Thank you for contacting me! I will be in touch with you very soon.
 
